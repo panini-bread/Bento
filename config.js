@@ -84,7 +84,7 @@ const CONFIG = {
 		{
 			id: '6',
 			name: 'Mint',
-			icon: 'Mint',
+			icon: 'dollar',
 			link: 'https://www.mint.com/',
 		},
 	],
