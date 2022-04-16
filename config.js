@@ -20,7 +20,7 @@ const CONFIG = {
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Go to sleep!',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -32,8 +32,8 @@ const CONFIG = {
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '33.849899',
-	defaultLongitude: '-118.037300',
+	defaultLatitude: '0',
+	defaultLongitude: '0',
 
 	// Autochange
 	autoChangeTheme: false,
@@ -53,39 +53,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Gmail',
+			icon: 'mail',
+			link: 'https://gmail.com/',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
+			name: 'PM.me',
+			icon: 'lock',
 			link: 'https://mail.protonmail.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
-		},
-		{
-			id: '4',
 			name: 'Calendar',
 			icon: 'calendar',
 			link: 'https://calendar.google.com/calendar/r',
 		},
 		{
+			id: '4',
+			name: 'Keep',
+			icon: 'check-square',
+			link: 'https://keep.google.com',
+		},
+		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Cronometer',
+			icon: 'activity',
+			link: 'https://www.cronometer.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Mint',
+			icon: 'Mint',
+			link: 'https://www.mint.com/',
 		},
 	],
 
@@ -135,24 +135,28 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'book-open',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Coursera',
+					link: 'https://www.coursera.org/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Udemy',
+					link: 'https://www.udemy.com/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Github',
+					link: 'https://www.github.com/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Figma',
+					link: 'https://www.figma.com',
+				},
+				{
+					name: 'LinkedIn',
+					link: 'https://www.linkedin.com',
 				},
 			],
 		},
@@ -161,20 +165,24 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Recipes',
+					link: 'https://reddit.com/r/veganrecipes',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Fitness',
+					link: 'https://reddit.com/r/veganfitness',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Jazz',
+					link: 'https://www.youtube.com/watch?v=3jWRrafhO7M',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Piano',
+					link: 'https://www.youtube.com/watch?v=PHklnuOvxfg',
+				},
+				{
+					name: 'Hisaishi',
+					link: 'https://www.youtube.com/watch?v=ET4Dcy8zuVY',
 				},
 			],
 		},
